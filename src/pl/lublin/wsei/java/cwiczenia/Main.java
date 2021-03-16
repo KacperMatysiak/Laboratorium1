@@ -1,6 +1,8 @@
 package pl.lublin.wsei.java.cwiczenia;
 
-public class Main {
+import java.util.Scanner;
+
+/*public class Main {
 
     public static void main(String[] args) {
         System.out.println("Hello world");
@@ -14,5 +16,31 @@ public class Main {
         for (int i = 0; i < 370; i+=10)
             System.out.printf("%d\t%f\t\n", i, Math.sin(i/360.0*2*Math.PI));
 
+    }
+}*/
+/*public class Main{
+    public static void main(String[] args) {
+        System.out.println("Hello world");
+        Scanner input = new Scanner(System.in);
+        int num1, num2;
+        System.out.print("Podaj pierwszą liczbę:");
+        num1 = input.nextInt();
+        System.out.print("Podaj drugą liczbę:");
+        num2 = input.nextInt();
+        System.out.printf("Wynik dodawanie %d + %d = %d%n", num1, num2, num1+num2);
+    }
+}*/
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world");
+        Scanner input = new Scanner(System.in);
+        int num1 = 0, num2 = 0;
+        do {
+            System.out.print("Podaj pierwszą liczbę:");
+            num1 = input.nextInt();
+            num2 = input.nextInt();
+            if ((num1 == 0) || (num2 == 0)) break;
+            System.out.printf("Wynik dodawanie %d + %d = %d%n", num1, num2, num1 + num2);
+        } while (true);
     }
 }
