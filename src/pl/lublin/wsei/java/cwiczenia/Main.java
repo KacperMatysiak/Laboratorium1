@@ -1,6 +1,8 @@
 package pl.lublin.wsei.java.cwiczenia;
 
-import java.util.Scanner;
+import pl.lublin.wsei.java.cwiczenia.mylib.Account;
+
+//import java.util.Scanner;
 
 /*public class Main {
 
@@ -30,7 +32,7 @@ import java.util.Scanner;
         System.out.printf("Wynik dodawanie %d + %d = %d%n", num1, num2, num1+num2);
     }
 }*/
-public class Main {
+/*public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world");
         System.out.println("Hello world");
@@ -45,4 +47,12 @@ public class Main {
             System.out.printf("Wynik dodawanie %d + %d = %d%n", num1, num2, num1 + num2);
         } while (true);
     }
+}*/
+public class Main {
+    public static void main(String[] args) {
+        Account acc = new Account();
+        acc.setName ("Kacper Matysiak");
+        System.out.println(acc.getName());
+
+        }
 }
