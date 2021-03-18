@@ -48,11 +48,11 @@ import pl.lublin.wsei.java.cwiczenia.mylib.Account;
         } while (true);
     }
 }*/
-public class Main {
+/*public class Main {
     public static void main(String[] args) {
         Account acc = new Account();
         acc.setName = ("Kacper Matysiak");
         System.out.println(acc.getname());
         System.out.printf(„%s%n”,Account.capitalize(„stanisŁaw maruSARz”));
         }
-}
+}*/
